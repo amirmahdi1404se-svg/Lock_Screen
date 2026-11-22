@@ -1,6 +1,5 @@
 package com.s26.lockscreen
 
-import android.content.ComponentName
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
@@ -62,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             isChecked = settings.isEnabled
             setOnCheckedChangeListener { _, isChecked ->
                 if (isChecked && !Settings.canDrawOverlays(this@MainActivity)) {
-                    isChecked = false
+                    this.isChecked = false
                     Toast.makeText(this@MainActivity, "ابتدا مجوز نمایش روی برنامه‌ها را بدهید", Toast.LENGTH_SHORT).show()
                     return@setOnCheckedChangeListener
                 }
