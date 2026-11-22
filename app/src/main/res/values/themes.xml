@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.S26LockScreen" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">#0A0D14</item>
+        <item name="android:navigationBarColor">#0A0D14</item>
+    </style>
+</resources>
