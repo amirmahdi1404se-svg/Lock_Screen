@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">S26 Lock Screen</string>
+    <string name="accessibility_desc">مسدودسازی دکمه‌های ناوبری هنگام فعال بودن لاک‌اسکرین S26</string>
+</resources>
